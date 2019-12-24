@@ -15,7 +15,7 @@ class Widget
   end
 end
 
-RSpec.describe 'Predicate matchers' do
+RSpec.describe 'Predicate matchers 2' do
   example 'With a custom class' do
     widget = Widget.new('Foo', 1337)
 

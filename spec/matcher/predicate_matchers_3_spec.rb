@@ -1,4 +1,4 @@
-RSpec.describe 'Predicate matchers' do
+RSpec.describe 'Predicate matchers 3' do
   example 'Rarely used matchers' do
     expect(4).to respond_to(:odd?)     # 4.respond_to?(:odd?)
     expect(Pathname.new('.')).to exist # pathname.exist?
